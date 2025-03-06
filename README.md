@@ -1,10 +1,13 @@
 # Tab Switcher Extension
 
-This is a simple Chrome extension designed to enhance your tab navigation experience by allowing you to switch between the current tab and the last active tab using the keyboard shortcut Alt + Q.
+This is a simple Chrome extension designed to enhance your tab navigation experience by allowing you to switch between the current tab and the last active tab using the keyboard shortcut Alt+Q.
 
 ## Features
 
 - Switch between the current tab and the last active tab with a single keyboard shortcut.
+- Persistent tab tracking even after browser restart.
+- Always remembers your last active tab for reliable switching.
+- Works 24/7 on any website.
 - Lightweight and easy to use.
 
 ## Installation
@@ -17,7 +20,16 @@ This is a simple Chrome extension designed to enhance your tab navigation experi
 
 ## Usage
 
-- To switch between the current tab and the last active tab, simply press `Alt + Q`.
+- To switch between the current tab and the last active tab, simply press `Alt+Q`.
+- The extension automatically tracks which tabs you've been using, so Alt+Q will always do something useful.
+
+## How It Works
+
+The extension continuously monitors your tab activity and:
+- Tracks your currently active tab and previously active tab
+- Persists this information even if you restart your browser
+- Handles cases where tabs might be closed or no longer exist
+- Provides fallback options to ensure Alt+Q always performs a tab switch
 
 ## Contributing
 
